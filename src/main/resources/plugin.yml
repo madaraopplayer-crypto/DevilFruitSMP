@@ -1,0 +1,12 @@
+name: DevilFruitSMP
+version: 1.0
+main: com.devilfruit.Main
+api-version: 1.21
+commands:
+  devilfruit:
+    description: Devil Fruit command
+    usage: /devilfruit
+    permission: devilfruit.admin
+permissions:
+  devilfruit.admin:
+    default: op
