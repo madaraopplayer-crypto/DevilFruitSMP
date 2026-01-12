@@ -12,7 +12,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - run: mvn package
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: DevilFruitSMP
           path: target/*.jar
